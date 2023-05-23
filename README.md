@@ -1,3 +1,5 @@
+![Banner](assets/images/banner.png)
+
 # Add Custom Domain to Github Pages
 
 A quick guide on how to add a custom domain to a github pages website.

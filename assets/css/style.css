@@ -48,3 +48,11 @@ ul {
 li {
     list-style: none;
 }
+
+.container {
+    text-align: center;
+}
+
+.error-img {
+    width: 50%;
+}

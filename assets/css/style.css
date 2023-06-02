@@ -1,3 +1,8 @@
+:root {
+    --primary: #18175e;
+    --box-shadow: 0px 0px 8px -4px rgba(0,0,0,0.52);
+}
+
 html, body {
     height: 100%;
 }
@@ -12,14 +17,20 @@ body {
 h1 {
     text-align: center;
     letter-spacing: 1px;
+    color: var(--primary);
+    -webkit-box-shadow: var(--box-shadow);
+    -moz-box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow);
 }
 
 h2 {
     letter-spacing: 1px;
+    color: var(--primary);
 }
 
 h2 {
     font-weight: bolder;
+    color: var(--primary);
 }
 
 main {
@@ -77,13 +88,18 @@ li {
     margin-top: 1rem;
     padding: 20px;
     width: 95%;
+    border: 1px solid var(--primary);
     border-radius: 5px;
     min-height: 220.5px;
     background-image: url(../images/gradient.webp);
     background-position: 50%;
-    -webkit-box-shadow: 0px 0px 8px -4px rgba(0,0,0,0.52);
-    -moz-box-shadow: 0px 0px 8px -4px rgba(0,0,0,0.52);
-    box-shadow: 0px 0px 8px -4px rgba(0,0,0,0.52);
+    -webkit-box-shadow: var(--box-shadow);
+    -moz-box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow);
+}
+
+.current {
+    border: 3px solid red;
 }
 
 @media screen and (min-width: 800px) {

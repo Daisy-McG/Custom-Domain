@@ -11,6 +11,15 @@ body {
 
 h1 {
     text-align: center;
+    letter-spacing: 1px;
+}
+
+h2 {
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-weight: bolder;
 }
 
 main {
